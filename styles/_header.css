@@ -1,0 +1,18 @@
+header {
+  background-color: #101028;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 3em;
+  color:#ff73d9;
+  text-shadow: 0 0 8px#ff73d9, 0 0 16px #ff73d9, 0 0 32px #ff73d9;
+}
+
+h2 {
+  font-size: 2em;
+  color: #73ffd1;
+  text-shadow: 0 0 8px #73ffd1, 0 0 16px #73ffd1;
+}

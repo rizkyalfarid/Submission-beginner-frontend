@@ -1,0 +1,32 @@
+form {
+  background-color: #292942;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], input[type="checkbox"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #292942;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  font-size: 1em;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="checkbox"]:focus {
+  border-color: #ff73d9;
+}

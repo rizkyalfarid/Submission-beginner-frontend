@@ -1,0 +1,45 @@
+
+/* Sections */
+section {
+  margin: 20px;
+  padding: 20px;
+}
+
+#incompleteBookList, #completeBookList {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #101028;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+#incompleteBookList div, #completeBookList div {
+  padding: 15px;
+  background-color: #292942;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+h3 {
+  color: #ff73d9;
+  margin-bottom: 8px;
+  text-shadow: 0 0 8px #ff73d9;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+button[data-testid="bookItemIsCompleteButton"] {
+  background-color: #ff73d9;
+  margin-right: 5px;
+}
+
+button[data-testid="bookItemDeleteButton"] {
+  background-color: #ff5858;
+}
+
+button[data-testid="bookItemEditButton"] {
+  background-color: #73ffd1;
+}

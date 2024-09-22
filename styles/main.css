@@ -1,0 +1,35 @@
+@import url('./_header.css');
+@import url('./_form.css');
+@import url('./_button.css');
+@import url('./_section.css');
+@import url('./_responsive.css');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #73ffd1;
+  color: #101028;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+.notification.show {
+  display: block;
+  opacity: 1;
+}
